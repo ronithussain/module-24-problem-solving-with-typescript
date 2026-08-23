@@ -35,4 +35,11 @@ console.log(getPatientStatus({
     emergencyLevel: 3
 }));
 // "Moderate emergency"
+console.log(getPatientStatus({
+    name: "Noman",
+    age: 45,
+    type: "emergency",
+    emergencyLevel: 2
+}));
+// "Moderate emergency"
 //# sourceMappingURL=problem-8-hospital-patient-status.js.map
